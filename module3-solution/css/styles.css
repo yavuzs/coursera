@@ -34,15 +34,6 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
-}
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
-}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -65,7 +56,6 @@ body {
   font-size: 1.8em;
 }
 
-
 /*Content*/
 
 #menu-content {
@@ -77,3 +67,10 @@ body {
 	color:  #F1F2F1;
 	margin: 30 0 10 0;
 }
+
+#menu-header {
+    margin-top: 5px;
+    font-size: 1.8em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
